@@ -1,0 +1,20 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/Users/sjami002/.nvm/v0.10.32/bin/node',
+1 verbose cli   '/Users/sjami002/.nvm/v0.10.32/bin/npm',
+1 verbose cli   'test' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.32
+4 verbose config Skipping project config: /Users/sjami002/.npmrc. (matches userconfig)
+5 error Error: ENOENT, open '/Users/sjami002/Desktop/Algorithms/package.json'
+6 error If you need help, you may report this *entire* log,
+6 error including the npm and node versions, at:
+6 error     <http://github.com/npm/npm/issues>
+7 error System Darwin 17.7.0
+8 error command "/Users/sjami002/.nvm/v0.10.32/bin/node" "/Users/sjami002/.nvm/v0.10.32/bin/npm" "test"
+9 error cwd /Users/sjami002/Desktop/Algorithms
+10 error node -v v0.10.32
+11 error npm -v 1.4.28
+12 error path /Users/sjami002/Desktop/Algorithms/package.json
+13 error code ENOENT
+14 error errno 34
+15 verbose exit [ 34, true ]
