@@ -100,25 +100,6 @@ class LinkedList {
     }
     previous.next = null;
   }
-  removeAt(index) {
-    if (!this.head) {
-      return;
-    }
-
-    let counter = 0;
-    let node = this.head;
-    while (node) {
-      if (counter === index - 1) {
-        if (node.next) {
-          return (node.next = node.next.next);
-        } else {
-          return (node.next = null);
-        }
-      }
-      node = node.next;
-      counter++;
-    }
-  }
 
   getFirst() {
     return this.head;
